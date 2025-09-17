@@ -1,0 +1,46 @@
+/* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+/* body {
+  font-size: 62.5%;
+} */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: lightgreen;
+  border: 1px solid green;
+  border-radius: 3px;
+  font-size: 20px;
+  padding: 10px;
+  width: 30%;
+  cursor: pointer;
+}
+.resetBtn {
+  background-color: lightcoral;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.animal-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
