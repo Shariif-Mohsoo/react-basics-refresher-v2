@@ -1,0 +1,21 @@
+.image-list {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-show {
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 10px 20px;
+  box-shadow: 5px 8px 10px lightslategray;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}

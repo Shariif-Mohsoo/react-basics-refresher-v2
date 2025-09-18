@@ -1,0 +1,25 @@
+.search-bar {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 19px;
+  width: 60%;
+  margin: 15px auto;
+  box-shadow: 5px 8px 10px lightgray;
+}
+
+.search-bar form {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar input {
+  font-size: 20px;
+  border: 1px solid lightgray;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.search-bar input:focus {
+  outline: gainsboro;
+}
