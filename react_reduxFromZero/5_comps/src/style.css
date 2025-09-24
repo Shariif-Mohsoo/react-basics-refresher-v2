@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+button > svg {
+  margin-right: 5px;
+}
+
+#btnsParent > *:not(:last-child) {
+  margin-right: 10px;
+}
