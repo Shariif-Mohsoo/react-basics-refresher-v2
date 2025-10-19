@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Myra"
+    },
+    {
+      "id": "c861",
+      "name": "Misty Simonis Sr."
+    }
+  ],
+  "albums": [
+    {
+      "id": "10",
+      "title": "trip",
+      "userId": 1
+    },
+    {
+      "id": "da16",
+      "userId": "c861",
+      "title": "Bespoke Wooden Chair"
+    },
+    {
+      "id": "f7b3",
+      "userId": "c861",
+      "title": "Refined Plastic Bike"
+    },
+    {
+      "id": "7a7e",
+      "userId": "c861",
+      "title": "Small Silk Towels"
+    },
+    {
+      "id": "e995",
+      "userId": "c861",
+      "title": "Rustic Steel Cheese"
+    },
+    {
+      "id": "ceb4",
+      "userId": null,
+      "title": "Modern Plastic Chicken"
+    },
+    {
+      "id": "1ec2",
+      "userId": null,
+      "title": "Electronic Silk Keyboard"
+    },
+    {
+      "id": "fb49",
+      "userId": "ceb4",
+      "title": "Refined Steel Chips"
+    },
+    {
+      "id": "347b",
+      "userId": "ceb4",
+      "title": "Refined Wooden Salad"
+    },
+    {
+      "id": "3dfa",
+      "userId": "1",
+      "title": "Practical Marble Sausages"
+    }
+  ],
+  "photos": [
+    {
+      "id": "a46c",
+      "albumId": "10",
+      "url": "https://avatars.githubusercontent.com/u/40702331"
+    },
+    {
+      "id": "cc4c",
+      "albumId": "10",
+      "url": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/45.jpg"
+    },
+    {
+      "id": "f9f3",
+      "albumId": "10",
+      "url": "https://picsum.photos/seed/cLU7D2/2493/2528"
+    },
+    {
+      "id": "20f3",
+      "albumId": "10",
+      "url": "https://picsum.photos/seed/lYVcC/3979/795"
+    },
+    {
+      "id": "d7a3",
+      "albumId": "10",
+      "url": "https://picsum.photos/seed/fJBjw/2621/1184"
+    },
+    {
+      "id": "9c24",
+      "albumId": "10",
+      "url": "https://picsum.photos/seed/QbQIsr/1063/2845"
+    },
+    {
+      "id": "664e",
+      "albumId": "10",
+      "url": "https://picsum.photos/seed/KdGjTf7jQ/3866/1615"
+    },
+    {
+      "id": "ef1b",
+      "albumId": "10",
+      "url": "https://picsum.photos/seed/xfFuqv/1822/295"
+    },
+    {
+      "id": "20e1",
+      "albumId": "10",
+      "url": "https://picsum.photos/seed/NigXPo/1833/1556"
+    },
+    {
+      "id": "a5f1",
+      "albumId": "10",
+      "url": "https://picsum.photos/seed/Ygw9GnWrUH/2948/3835"
+    }
+  ]
+}
