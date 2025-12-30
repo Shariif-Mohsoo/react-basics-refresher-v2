@@ -51,3 +51,19 @@ VALUES (1, 'IN', 10, '2024-11-10'),
     (4, 'OUT', 3, '2024-11-12');
 SELECT *
 from categories;
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    role VARCHAR(20) NOT NULL CHECK (role IN ('admin', 'staff')),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+-- Insert default admin
+INSERT INTO users (username, password, role)
+VALUES (
+        'admin@warehouse.com',
+        '$2b$10$C13fJnYbkk.S9QJPwlbZdepLu2cUbvgvRCdzbdoq5rUyENjMOB9se',
+        'admin'
+    );
+SELECT *
+FROM users;
